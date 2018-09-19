@@ -109,7 +109,7 @@ public class NodeTest {
     }
 
     @Test
-    public void Node_GetChildren_ShouldContainSixVPs() {
+    public void Node_GetChildren_ShouldContainAppropriateNumberOfEmployees() {
 
         //Arrange
         Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "ceo"));
@@ -153,6 +153,8 @@ public class NodeTest {
         m5.addChild(i7);
 
         //Assert
+        Assert.assertEquals(0, ceo.getChildren(-1).size());
+        Assert.assertEquals(0, ceo.getChildren(0).size());
         Assert.assertEquals(4, ceo.getChildren(1).size());
         Assert.assertEquals(6, ceo.getChildren(2).size());
         Assert.assertEquals(6, ceo.getChildren(3).size());
