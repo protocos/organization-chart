@@ -1,7 +1,10 @@
 package com.company;
 
 import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 public class NodeTest {
 
@@ -159,5 +162,27 @@ public class NodeTest {
         Assert.assertEquals(2, ceo.getChildren(4).size());
         Assert.assertEquals(0, ceo.getChildren(5).size());
         Assert.assertEquals(0, ceo.getChildren(6).size());
+    }
+
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+    @Ignore
+    @Test
+    public void Node_CycleInGraph_ShouldThrowAnError() {
+
+        //Arrange
+        Node<Employee> director = new Node<Employee>(new Employee(Title.Director, "director"));
+        Node<Employee> manager = new Node<Employee>(new Employee(Title.Manager, "manager"));
+        Node<Employee> individual = new Node<Employee>(new Employee(Title.IndividualContributor, "individual"));
+
+        //Act
+        individual.setParent(manager);
+        manager.setParent(director);
+        director.setParent(individual);
+
+        //Assert
+        thrown.expect(RuntimeException.class);
+        thrown.expectMessage("Already visited this node in the hierarchy");
+        individual.getChildren(2);
     }
 }
