@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817fcf1b-aff4-4515-8023-d127cd9e53ce" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/OrganizationChart/com/company/Node.class" afterPath="$PROJECT_DIR$/out/production/OrganizationChart/com/company/Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/OrganizationChart/com/company/NodeTest.class" afterPath="$PROJECT_DIR$/out/production/OrganizationChart/com/company/NodeTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Node.java" afterPath="$PROJECT_DIR$/src/com/company/Node.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/NodeTest.java" afterPath="$PROJECT_DIR$/src/com/company/NodeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +21,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -27,46 +31,47 @@
       <file leaf-file-name="NodeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/NodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="111" column="74" lean-forward="false" selection-start-line="111" selection-start-column="74" selection-end-line="111" selection-end-column="74" />
+            <state relative-caret-position="-691">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
-                <element signature="e#340#350#0" expanded="true" />
-                <element signature="e#663#673#0" expanded="true" />
-                <element signature="e#759#769#0" expanded="true" />
-                <element signature="e#1116#1126#0" expanded="true" />
-                <element signature="e#1212#1222#0" expanded="true" />
-                <element signature="e#1567#1577#0" expanded="true" />
-                <element signature="e#1663#1673#0" expanded="true" />
-                <element signature="e#1750#1760#0" expanded="true" />
-                <element signature="e#2077#2087#0" expanded="true" />
-                <element signature="e#2173#2183#0" expanded="true" />
-                <element signature="e#2261#2271#0" expanded="true" />
-                <element signature="e#2350#2360#0" expanded="true" />
-                <element signature="e#2704#2714#0" expanded="true" />
-                <element signature="e#2801#2811#0" expanded="true" />
-                <element signature="e#2890#2900#0" expanded="true" />
-                <element signature="e#2978#2988#0" expanded="true" />
-                <element signature="e#3067#3077#0" expanded="true" />
-                <element signature="e#3153#3163#0" expanded="true" />
-                <element signature="e#3590#3600#0" expanded="true" />
-                <element signature="e#3672#3682#0" expanded="true" />
-                <element signature="e#3755#3765#0" expanded="true" />
-                <element signature="e#3837#3847#0" expanded="true" />
-                <element signature="e#3917#3927#0" expanded="true" />
-                <element signature="e#3997#4007#0" expanded="true" />
-                <element signature="e#4076#4086#0" expanded="true" />
-                <element signature="e#4160#4170#0" expanded="true" />
-                <element signature="e#4243#4253#0" expanded="true" />
-                <element signature="e#4326#4336#0" expanded="true" />
-                <element signature="e#4409#4419#0" expanded="true" />
-                <element signature="e#4492#4502#0" expanded="true" />
-                <element signature="e#4575#4585#0" expanded="true" />
-                <element signature="e#4672#4682#0" expanded="true" />
-                <element signature="e#4769#4779#0" expanded="true" />
-                <element signature="e#4866#4876#0" expanded="true" />
-                <element signature="e#4963#4973#0" expanded="true" />
-                <element signature="e#5060#5070#0" expanded="true" />
-                <element signature="e#5157#5167#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#315#0" expanded="true" />
+                <element signature="e#628#638#0" expanded="true" />
+                <element signature="e#724#734#0" expanded="true" />
+                <element signature="e#1081#1091#0" expanded="true" />
+                <element signature="e#1177#1187#0" expanded="true" />
+                <element signature="e#1532#1542#0" expanded="true" />
+                <element signature="e#1628#1638#0" expanded="true" />
+                <element signature="e#1715#1725#0" expanded="true" />
+                <element signature="e#2042#2052#0" expanded="true" />
+                <element signature="e#2138#2148#0" expanded="true" />
+                <element signature="e#2226#2236#0" expanded="true" />
+                <element signature="e#2315#2325#0" expanded="true" />
+                <element signature="e#2669#2679#0" expanded="true" />
+                <element signature="e#2766#2776#0" expanded="true" />
+                <element signature="e#2855#2865#0" expanded="true" />
+                <element signature="e#2943#2953#0" expanded="true" />
+                <element signature="e#3032#3042#0" expanded="true" />
+                <element signature="e#3118#3128#0" expanded="true" />
+                <element signature="e#3569#3579#0" expanded="true" />
+                <element signature="e#3651#3661#0" expanded="true" />
+                <element signature="e#3734#3744#0" expanded="true" />
+                <element signature="e#3816#3826#0" expanded="true" />
+                <element signature="e#3896#3906#0" expanded="true" />
+                <element signature="e#3976#3986#0" expanded="true" />
+                <element signature="e#4055#4065#0" expanded="true" />
+                <element signature="e#4139#4149#0" expanded="true" />
+                <element signature="e#4222#4232#0" expanded="true" />
+                <element signature="e#4305#4315#0" expanded="true" />
+                <element signature="e#4388#4398#0" expanded="true" />
+                <element signature="e#4471#4481#0" expanded="true" />
+                <element signature="e#4554#4564#0" expanded="true" />
+                <element signature="e#4651#4661#0" expanded="true" />
+                <element signature="e#4748#4758#0" expanded="true" />
+                <element signature="e#4845#4855#0" expanded="true" />
+                <element signature="e#4942#4952#0" expanded="true" />
+                <element signature="e#5039#5049#0" expanded="true" />
+                <element signature="e#5136#5146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,17 +80,17 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#773#782#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#775#784#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/com/company/MainTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Person.java" />
         <option value="$PROJECT_DIR$/src/com/company/Title.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/HierarchyTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/com/company/interfaces/ISubordinate.java" />
@@ -129,15 +133,17 @@
         <option value="$PROJECT_DIR$/src/com/company/interfaces/IChild.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaces/IParent.java" />
         <option value="$PROJECT_DIR$/src/com/company/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/NodeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Node.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="384" />
     <option name="y" value="23" />
-    <option name="width" value="1342" />
-    <option name="height" value="872" />
+    <option name="width" value="1536" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,6 +181,7 @@
   <component name="PropertiesComponent">
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zjlanglois/IdeaProjects/OrganizationChart/src/com/company/Main.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -196,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NodeTest.Node_GetChildren_ShouldContainZeroVPs">
+  <component name="RunManager" selected="JUnit.NodeTest">
     <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -222,6 +229,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="OrganizationChart" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.NodeTest" />
+      <option name="METHOD_NAME" value="Node_CycleInGraph_ShouldNotThrowAnError" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NodeTest.Node_CycleInGraph_ShouldThrowAnError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="OrganizationChart" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.NodeTest" />
+      <option name="METHOD_NAME" value="Node_CycleInGraph_ShouldThrowAnError" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -235,56 +292,6 @@
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.NodeTest" />
       <option name="METHOD_NAME" value="Node_GetChildren_ShouldContainSixVPs" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="NodeTest.Node_GetChildren_ShouldContainThreeChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="OrganizationChart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.NodeTest" />
-      <option name="METHOD_NAME" value="Node_GetChildren_ShouldContainThreeChildren" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="NodeTest.Node_GetChildren_ShouldContainThreeVPs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="OrganizationChart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.NodeTest" />
-      <option name="METHOD_NAME" value="Node_GetChildren_ShouldContainThreeVPs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -339,18 +346,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainThreeChildren" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainThreeVPs" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainSixVPs" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainZeroVPs" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainSixVPs" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainZeroVPs" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_CycleInGraph_ShouldThrowAnError" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainZeroVPs" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainSixVPs" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainThreeVPs" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainThreeChildren" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_CycleInGraph_ShouldThrowAnError" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainZeroVPs" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest.Node_GetChildren_ShouldContainSixVPs" />
       </list>
     </recent_temporary>
   </component>
@@ -371,55 +378,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NodeTest - 2018.09.18 at 22h 45m 05s.xml">
+    <history-entry file="NodeTest - 2018.09.19 at 10h 34m 33s.xml">
       <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest - 2018.09.18 at 23h 29m 24s.xml">
+    <history-entry file="NodeTest - 2018.09.19 at 10h 35m 40s.xml">
       <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainSixVPs - 2018.09.18 at 23h 04m 42s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.09.20 at 19h 42m 24s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainSixVPs - 2018.09.18 at 23h 05m 28s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.09.20 at 19h 42m 53s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainSixVPs - 2018.09.18 at 23h 07m 11s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.09.20 at 19h 46m 29s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainSixVPs - 2018.09.18 at 23h 07m 31s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest_Node_CycleInGraph_ShouldNotThrowAnError - 2018.09.19 at 10h 25m 45s.xml">
+      <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainSixVPs - 2018.09.18 at 23h 23m 39s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainSixVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest_Node_CycleInGraph_ShouldNotThrowAnError - 2018.09.19 at 10h 28m 47s.xml">
+      <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainThreeChildren - 2018.09.18 at 22h 44m 13s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainThreeChildren" configurationId="JUnit" />
+    <history-entry file="NodeTest_Node_CycleInGraph_ShouldNotThrowAnError - 2018.09.19 at 10h 28m 54s.xml">
+      <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainThreeChildren - 2018.09.18 at 22h 44m 22s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainThreeChildren" configurationId="JUnit" />
+    <history-entry file="NodeTest_Node_CycleInGraph_ShouldNotThrowAnError - 2018.09.19 at 10h 29m 00s.xml">
+      <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeTest_Node_GetChildren_ShouldContainZeroVPs - 2018.09.18 at 23h 36m 10s.xml">
-      <configuration name="NodeTest.Node_GetChildren_ShouldContainZeroVPs" configurationId="JUnit" />
+    <history-entry file="NodeTest_Node_CycleInGraph_ShouldNotThrowAnError - 2018.09.19 at 10h 29m 08s.xml">
+      <configuration name="NodeTest.Node_CycleInGraph_ShouldNotThrowAnError" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1342" height="872" extended-state="0" />
+    <frame x="384" y="23" width="1536" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23891403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962743" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21809895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -442,7 +449,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -520,73 +527,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#773#782#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#775#784#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="111" column="74" lean-forward="false" selection-start-line="111" selection-start-column="74" selection-end-line="111" selection-end-column="74" />
+        <state relative-caret-position="-691">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
-            <element signature="e#340#350#0" expanded="true" />
-            <element signature="e#663#673#0" expanded="true" />
-            <element signature="e#759#769#0" expanded="true" />
-            <element signature="e#1116#1126#0" expanded="true" />
-            <element signature="e#1212#1222#0" expanded="true" />
-            <element signature="e#1567#1577#0" expanded="true" />
-            <element signature="e#1663#1673#0" expanded="true" />
-            <element signature="e#1750#1760#0" expanded="true" />
-            <element signature="e#2077#2087#0" expanded="true" />
-            <element signature="e#2173#2183#0" expanded="true" />
-            <element signature="e#2261#2271#0" expanded="true" />
-            <element signature="e#2350#2360#0" expanded="true" />
-            <element signature="e#2704#2714#0" expanded="true" />
-            <element signature="e#2801#2811#0" expanded="true" />
-            <element signature="e#2890#2900#0" expanded="true" />
-            <element signature="e#2978#2988#0" expanded="true" />
-            <element signature="e#3067#3077#0" expanded="true" />
-            <element signature="e#3153#3163#0" expanded="true" />
-            <element signature="e#3590#3600#0" expanded="true" />
-            <element signature="e#3672#3682#0" expanded="true" />
-            <element signature="e#3755#3765#0" expanded="true" />
-            <element signature="e#3837#3847#0" expanded="true" />
-            <element signature="e#3917#3927#0" expanded="true" />
-            <element signature="e#3997#4007#0" expanded="true" />
-            <element signature="e#4076#4086#0" expanded="true" />
-            <element signature="e#4160#4170#0" expanded="true" />
-            <element signature="e#4243#4253#0" expanded="true" />
-            <element signature="e#4326#4336#0" expanded="true" />
-            <element signature="e#4409#4419#0" expanded="true" />
-            <element signature="e#4492#4502#0" expanded="true" />
-            <element signature="e#4575#4585#0" expanded="true" />
-            <element signature="e#4672#4682#0" expanded="true" />
-            <element signature="e#4769#4779#0" expanded="true" />
-            <element signature="e#4866#4876#0" expanded="true" />
-            <element signature="e#4963#4973#0" expanded="true" />
-            <element signature="e#5060#5070#0" expanded="true" />
-            <element signature="e#5157#5167#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#315#0" expanded="true" />
+            <element signature="e#628#638#0" expanded="true" />
+            <element signature="e#724#734#0" expanded="true" />
+            <element signature="e#1081#1091#0" expanded="true" />
+            <element signature="e#1177#1187#0" expanded="true" />
+            <element signature="e#1532#1542#0" expanded="true" />
+            <element signature="e#1628#1638#0" expanded="true" />
+            <element signature="e#1715#1725#0" expanded="true" />
+            <element signature="e#2042#2052#0" expanded="true" />
+            <element signature="e#2138#2148#0" expanded="true" />
+            <element signature="e#2226#2236#0" expanded="true" />
+            <element signature="e#2315#2325#0" expanded="true" />
+            <element signature="e#2669#2679#0" expanded="true" />
+            <element signature="e#2766#2776#0" expanded="true" />
+            <element signature="e#2855#2865#0" expanded="true" />
+            <element signature="e#2943#2953#0" expanded="true" />
+            <element signature="e#3032#3042#0" expanded="true" />
+            <element signature="e#3118#3128#0" expanded="true" />
+            <element signature="e#3569#3579#0" expanded="true" />
+            <element signature="e#3651#3661#0" expanded="true" />
+            <element signature="e#3734#3744#0" expanded="true" />
+            <element signature="e#3816#3826#0" expanded="true" />
+            <element signature="e#3896#3906#0" expanded="true" />
+            <element signature="e#3976#3986#0" expanded="true" />
+            <element signature="e#4055#4065#0" expanded="true" />
+            <element signature="e#4139#4149#0" expanded="true" />
+            <element signature="e#4222#4232#0" expanded="true" />
+            <element signature="e#4305#4315#0" expanded="true" />
+            <element signature="e#4388#4398#0" expanded="true" />
+            <element signature="e#4471#4481#0" expanded="true" />
+            <element signature="e#4554#4564#0" expanded="true" />
+            <element signature="e#4651#4661#0" expanded="true" />
+            <element signature="e#4748#4758#0" expanded="true" />
+            <element signature="e#4845#4855#0" expanded="true" />
+            <element signature="e#4942#4952#0" expanded="true" />
+            <element signature="e#5039#5049#0" expanded="true" />
+            <element signature="e#5136#5146#0" expanded="true" />
           </folding>
         </state>
       </provider>

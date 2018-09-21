@@ -32,16 +32,16 @@ public class Node<T> {
         return new LinkedList<Node<T>>(children);
     }
 
-    public List<Node<T>> getChildren(int levelsDeep) {
-        List<Node<T>> children = new LinkedList<Node<T>>();
-        getChildren(this, 0, levelsDeep, children);
-        return children;
+    public List<Node<T>> getChildren(int level) {
+        List<Node<T>> childrenAtLevel = new LinkedList<Node<T>>();
+        getChildren(this, 0, level, childrenAtLevel);
+        return childrenAtLevel;
     }
 
-    private void getChildren(Node<T> currentNode, int currentLevel, int maxLevel, List<Node<T>> allChildren) {
-        if (currentLevel == maxLevel - 1)
+    private void getChildren(Node<T> currentNode, int currentLevel, int maxLevel, List<Node<T>> allChildren) throws RuntimeException {
+        if (currentLevel == maxLevel)
         {
-            allChildren.addAll(currentNode.getChildren());
+            allChildren.add(currentNode);
             return;
         }
         ++currentLevel;

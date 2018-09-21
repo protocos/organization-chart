@@ -3,8 +3,6 @@ package com.company;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class NodeTest {
 
     @Test
@@ -109,7 +107,7 @@ public class NodeTest {
     }
 
     @Test
-    public void Node_GetChildren_ShouldContainAppropriateNumberOfEmployees() {
+    public void Node_GetChildrenMultipleLevels_ShouldContainAppropriateNumberOfEmployees() {
 
         //Arrange
         Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "ceo"));
@@ -154,7 +152,7 @@ public class NodeTest {
 
         //Assert
         Assert.assertEquals(0, ceo.getChildren(-1).size());
-        Assert.assertEquals(0, ceo.getChildren(0).size());
+        Assert.assertEquals(1, ceo.getChildren(0).size());
         Assert.assertEquals(4, ceo.getChildren(1).size());
         Assert.assertEquals(6, ceo.getChildren(2).size());
         Assert.assertEquals(6, ceo.getChildren(3).size());
