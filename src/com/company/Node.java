@@ -36,19 +36,25 @@ public class Node<T> {
 
     public List<Node<T>> getChildren(int level) {
         HashSet<Node<T>> childrenAtLevel = new HashSet<Node<T>>();
-        getChildren(this, 0, level, childrenAtLevel);
+        getChildren(this, 0, level, childrenAtLevel, new HashSet<Node<T>>());
         return new LinkedList<Node<T>>(childrenAtLevel);
     }
 
-    private void getChildren(Node<T> currentNode, int currentLevel, int maxLevel, HashSet<Node<T>> allChildren) throws RuntimeException {
+    private void getChildren(Node<T> currentNode, int currentLevel, int maxLevel, HashSet<Node<T>> allChildren, HashSet<Node<T>> ancestors) throws RuntimeException {
+        if (ancestors.contains(currentNode))
+        {
+            return;
+        }
         if (currentLevel == maxLevel)
         {
             allChildren.add(currentNode);
             return;
         }
         ++currentLevel;
-        for (Node<T> child : currentNode.getChildren()) {
-            getChildren(child, currentLevel, maxLevel, allChildren);
+        for (Node<T> child : currentNode.children) {
+            HashSet<Node<T>> newAncestorCollection = new HashSet<Node<T>>(ancestors);
+            newAncestorCollection.add(currentNode);
+            getChildren(child, currentLevel, maxLevel, allChildren, newAncestorCollection);
         }
     }
 

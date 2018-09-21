@@ -200,25 +200,48 @@ public class NodeTest {
         Assert.assertEquals(1, ceo.getChildren().size());
     }
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-    @Ignore
     @Test
-    public void Node_CycleInGraph_ShouldThrowAnError() {
+    public void Node_SimpleCycleInGraph_ShouldThrowAnError() {
 
         //Arrange
-        Node<Employee> director = new Node<Employee>(new Employee(Title.Director, "director"));
-        Node<Employee> manager = new Node<Employee>(new Employee(Title.Manager, "manager"));
-        Node<Employee> individual = new Node<Employee>(new Employee(Title.IndividualContributor, "individual"));
+        Node<Employee> director = new Node<Employee>(new Employee(Title.Director, "Julie"));
+        Node<Employee> manager = new Node<Employee>(new Employee(Title.Manager, "Jack"));
+        Node<Employee> individual = new Node<Employee>(new Employee(Title.IndividualContributor, "Claire"));
 
         //Act
-        individual.setParent(manager);
-        manager.setParent(director);
-        director.setParent(individual);
+        individual.addParent(manager);
+        manager.addParent(director);
+        director.addParent(individual);
 
         //Assert
-        thrown.expect(RuntimeException.class);
-        thrown.expectMessage("Already visited this node in the hierarchy");
-        individual.getChildren(2);
+        Assert.assertEquals(0,director.getChildren(3).size());
+    }
+
+    @Test
+    public void Node_ComplicatedCycleInGraph_ShouldNotCountCycleAndShouldCountRestOfChildren() {
+
+        //Arrange
+        Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "Julie"));
+        Node<Employee> svp = new Node<Employee>(new Employee(Title.SVP, "Jack"));
+        Node<Employee> vp1 = new Node<Employee>(new Employee(Title.VP, "Claire"));
+        Node<Employee> vp2 = new Node<Employee>(new Employee(Title.VP, "Justin"));
+        Node<Employee> director1 = new Node<Employee>(new Employee(Title.VP, "Maribel"));
+        Node<Employee> director2 = new Node<Employee>(new Employee(Title.VP, "Tony"));
+
+        //Act
+        ceo.addChild(svp);//Child at level 1
+        svp.addChild(vp1);//Child at level 2
+        svp.addChild(vp2);//Child at level 2
+        vp1.addChild(director1);//Child at level 3
+        vp1.addChild(ceo);//Error connection -- don't count
+        vp2.addChild(director2);//Child at level 3
+
+
+        //Assert
+        Assert.assertEquals(1, ceo.getChildren(1).size());
+        Assert.assertEquals(2, ceo.getChildren(2).size());
+        Assert.assertEquals(2, ceo.getChildren(3).size());
+        Assert.assertTrue(ceo.getChildren(3).contains(director1));
+        Assert.assertTrue(ceo.getChildren(3).contains(director2));
     }
 }
