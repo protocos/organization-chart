@@ -1,5 +1,3 @@
-package com.company;
-
 public class Employee {
 
     private final Title title;

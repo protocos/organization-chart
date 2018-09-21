@@ -1,0 +1,23 @@
+Julie Anderson, CEO
+Mack Baumgartner, SVP -> Julie Anderson
+Monica Tran, SVP -> Julie Anderson
+Dimitri Fitzgerald, SVP -> Julie Anderson
+Margaret Howells, VP -> Julie Anderson
+Omar Blanchard, VP -> Julie Anderson
+Koby Rawlings, VP -> Monica Tran
+Rohan Henry, VP -> Monica Tran
+Naomi Fisher, VP -> Dimitri Fitzgerald
+Carl Rodriguez, Director -> Dimitri Fitzgerald
+Zachariah Stubbs, Director -> Dimitri Fitzgerald
+Elly Kumar, Manager -> Monica Tran
+Nick Sauers, Manager -> Margaret Howells
+Anderson Snow, Manager -> Zachariah Stubbs
+Abbigail Esparza, Manager -> Zachariah Stubbs
+Jose Hammond, IndividualContributor -> Naomi Fisher
+Samara Trujillo, IndividualContributor -> Naomi Fisher
+Brenda Davis, IndividualContributor -> Naomi Fisher
+Gabriele Maddox, IndividualContributor -> Anderson Snow
+Gideon Fry, IndividualContributor -> Anderson Snow
+Lauryn Bray, IndividualContributor -> Abbigail Esparza
+
+Julie Anderson, 2
