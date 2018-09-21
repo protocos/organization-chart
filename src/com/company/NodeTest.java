@@ -35,7 +35,7 @@ public class NodeTest {
 
         //Assert
         Assert.assertTrue(ceo.getChildren().contains(svp));
-        Assert.assertEquals(ceo, svp.getParent());
+        Assert.assertTrue(svp.getParents().contains(ceo));
     }
 
     @Test
@@ -46,11 +46,11 @@ public class NodeTest {
         Node<Employee> svp = new Node<Employee>(new Employee(Title.SVP, "Amira Hail"));
 
         //Act
-        svp.setParent(ceo);
+        svp.addParent(ceo);
 
         //Assert
         Assert.assertTrue(ceo.getChildren().contains(svp));
-        Assert.assertEquals(ceo, svp.getParent());
+        Assert.assertTrue(svp.getParents().contains(ceo));
     }
 
     @Test
@@ -162,6 +162,42 @@ public class NodeTest {
         Assert.assertEquals(2, ceo.getChildren(4).size());
         Assert.assertEquals(0, ceo.getChildren(5).size());
         Assert.assertEquals(0, ceo.getChildren(6).size());
+    }
+
+    @Test
+    public void Node_MultipleSuperiors_ShouldNotDoubleCount() {
+
+        //Arrange
+        Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "ceo"));
+        Node<Employee> svp1 = new Node<Employee>(new Employee(Title.SVP, "svp1"));
+        Node<Employee> svp2 = new Node<Employee>(new Employee(Title.SVP, "svp2"));
+        Node<Employee> vp = new Node<Employee>(new Employee(Title.VP, "vp"));
+
+        //Act
+        svp1.addParent(ceo);
+        svp2.addParent(ceo);
+        svp1.addChild(vp);
+        svp2.addChild(vp);
+
+        //Assert
+        Assert.assertEquals(2, ceo.getChildren().size());
+        Assert.assertEquals(2, vp.getParents().size());
+        Assert.assertEquals(1, ceo.getChildren(2).size());
+    }
+
+    @Test
+    public void Node_MultipleSuperiors_CannotAddTwice() {
+
+        //Arrange
+        Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "ceo"));
+        Node<Employee> vp = new Node<Employee>(new Employee(Title.VP, "vp"));
+
+        //Act
+        ceo.addChild(vp);
+        ceo.addChild(vp);
+
+        //Assert
+        Assert.assertEquals(1, ceo.getChildren().size());
     }
 
     @Rule
