@@ -1,6 +1,7 @@
 package com.company;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class NodeTest {
@@ -159,5 +160,23 @@ public class NodeTest {
         Assert.assertEquals(2, ceo.getChildren(4).size());
         Assert.assertEquals(0, ceo.getChildren(5).size());
         Assert.assertEquals(0, ceo.getChildren(6).size());
+    }
+    @Ignore
+    @Test
+    public void Node_MultipleSuperiors_ShouldNotDoubleCount() {
+
+        //Arrange
+        Node<Employee> ceo = new Node<Employee>(new Employee(Title.CEO, "ceo"));
+        Node<Employee> svp1 = new Node<Employee>(new Employee(Title.SVP, "svp1"));
+        Node<Employee> svp2 = new Node<Employee>(new Employee(Title.SVP, "svp2"));
+        Node<Employee> vp = new Node<Employee>(new Employee(Title.VP, "vp"));
+
+        //Act
+        svp1.setParent(ceo);
+        svp2.setParent(ceo);
+        svp1.addChild(vp);
+        svp2.addChild(vp);
+
+        //Assert
     }
 }
