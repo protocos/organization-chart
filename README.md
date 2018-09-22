@@ -1,12 +1,12 @@
-#OrganizationChart
+# OrganizationChart
 
 This project is a proof of concept for organizing a company hierarchy using a Node concept and parent/child relationships. You can create Nodes, add children to them, or add a parent, and then for any arbitrary node, you can use node.getChildren(N) to find all nodes N levels below the given node. So for instance, if you wanted to find everyone 3 levels below a CEO, as long as you set up you hierarchy correctly, you should be able to count them.
 
-#How does it work?
+# How does it work?
 
 It uses recursion and a simple Depth First Search algorithm, keeping track of ancestors in the hierarchy, and counts every node at the specified level.
 
-#How To Setup:
+# How To Setup:
 
 1. Make sure you have Java v1.7+ installed on your machine
 1. Clone the project
@@ -14,12 +14,12 @@ It uses recursion and a simple Depth First Search algorithm, keeping track of an
 1. Make sure JUnit 4+ is in the classpath for the project, otherwise NodeTest will not build.
 1. Run the unit tests in NodeTest and make sure they all pass
 1. Open the hierarchy.txt and set up your company hierarchy as you see fit.
-  - The first line should be the root node in the format of (Full Name, Position), where Position can be one of the following: CEO, SVP, VP, Director, Manager, IndividualContributor
-  - The subsequent lines should be the same thing as the first except with an arrow (i.e. " -> ") designating a superior in the hierarchy (The other person has to already exist in the hierarchy first)
-  - Finally, once you are done creating your hierarchy, add a new line between the hierarchy and the last line of the file which should be in the format of (Full Name, LevelsDeep)
+    - The first line should be the root node in the format of (Full Name, Position), where Position can be one of the following: CEO, SVP, VP, Director, Manager, IndividualContributor
+    - The subsequent lines should be the same thing as the first except with an arrow (i.e. " -> ") designating a superior in the hierarchy (The other person has to already exist in the hierarchy first)
+    - Finally, once you are done creating your hierarchy, add a new line between the hierarchy and the last line of the file which should be in the format of (Full Name, LevelsDeep)
 1. Now once you run Main.java's main method, it should parse the hierarchy.txt file and print the names of everyone N levels down from the name of the person you specified
 
-#Clarifications:
+# Clarifications:
 
 Q: Does this code support multiple parents for a single child?
 > A: Yes, you can add multiple parents to a child and it
