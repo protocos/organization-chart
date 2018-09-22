@@ -1,12 +1,12 @@
 # OrganizationChart
 
-This project is a proof of concept for organizing a company hierarchy using a Node concept and parent/child relationships. You can create Nodes, add children to them, or add a parent, and then for any arbitrary node, you can use node.getChildren(N) to find all nodes N levels below the given node. So for instance, if you wanted to find everyone 3 levels below a CEO, as long as you set up you hierarchy correctly, you should be able to count them.
+This project is a proof of concept for organizing a company hierarchy using the concept of a Node and parent/child relationships. You can create Nodes, add children to them, or add a parent, and then for any arbitrary node, you can use node.getChildren(N) to find all nodes N levels below the given node. So for instance, if you wanted to find everyone 3 levels below a CEO, as long as you set up you hierarchy correctly, you should be able to count them.
 
 # How does it work?
 
 It uses recursion and a simple Depth First Search algorithm, keeping track of ancestors in the hierarchy, and counts every node at the specified level.
 
-# How To Setup:
+# How to set up the project:
 
 1. Make sure you have Java v1.7+ installed on your machine
 1. Clone the project
