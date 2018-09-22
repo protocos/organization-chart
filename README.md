@@ -11,9 +11,9 @@ It uses recursion and a simple Depth First Search algorithm, keeping track of an
 1. Make sure you have Java v1.7+ installed on your machine
 1. Clone the project
 1. Pick your favorite Java IDE and import the project (I used IntelliJ Idea Community Edition)
-1. Make sure JUnit 4+ is in the classpath for the project, otherwise NodeTest will not build.
+1. Make sure JUnit 4+ is in the classpath for the project, otherwise NodeTest will not build
 1. Run the unit tests in NodeTest and make sure they all pass
-1. Open the hierarchy.txt and set up your company hierarchy as you see fit.
+1. Open the hierarchy.txt and set up your company hierarchy as you see fit
     - The first line should be the root node in the format of (Full Name, Position), where Position can be one of the following: CEO, SVP, VP, Director, Manager, IndividualContributor
     - The subsequent lines should be the same thing as the first except with an arrow (i.e. " -> ") designating a superior in the hierarchy (The other person has to already exist in the hierarchy first)
     - Finally, once you are done creating your hierarchy, add a new line between the hierarchy and the last line of the file which should be in the format of (Full Name, LevelsDeep)
