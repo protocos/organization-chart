@@ -22,7 +22,7 @@ It uses recursion and a simple Depth First Search algorithm, keeping track of an
 # Clarifications:
 
 Q: Does this code support multiple parents for a single child?
-> A: Yes, you can add multiple parents to a child and it
+> A: Yes, you can add multiple parents to a child and it will only count the child once when traversing the hierarchy with node.getChildren(N)
 
 Q: Does this code account for cycles?
 > A: Yes, if you make a hierarchy like: Julie -> Mark -> Ashlee -> Julie, then it will be able to detect that it's already visited Julie and thus it won't count Julie at 3 levels below Julie
